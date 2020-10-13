@@ -673,9 +673,6 @@ section .container {
   background-repeat: no-repeat;
 }
 
-.img-portfolio3 {
-  background: url(../img/portfolio/portfolio1.png) center center/cover no-repeat;
-}
 
 li {
   list-style-type: none;
