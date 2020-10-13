@@ -1,10 +1,3 @@
-/**
-* Template Name: Personal - v2.1.0
-* Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -650,6 +643,78 @@ section .container {
   border: 2px solid #9e7f25;
 }
 
+.portfolio__list {
+  display: flex;
+  
+}
+
+.portfolio__item {
+  min-width: 290px;
+  width: 30%;
+  position: relative;
+  margin-right: 20px;
+}
+
+.img-portfolio1 {
+  background: url('../img/skillbox.jpg') center center/cover no-repeat;
+}
+
+.img-portfolio2 {
+  background-image: url('../img/udemy.png');
+  background-position: center center;
+  background-size: 300px;
+  background-repeat: no-repeat;
+}
+
+.img-portfolio3 {
+  background: url(../img/portfolio/portfolio1.png) center center/cover no-repeat;
+}
+
+li {
+  list-style-type: none;
+}
+
+.portfolio__block {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  background-color: #363636;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.portfolio__block-descr {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.portfolio__block-about {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.portfolio__block-link {
+  display: block;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 15px;
+  font-style: italic;
+}
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -658,7 +723,8 @@ section .container {
   background: #09203a;
   padding: 40px 40px;
   transition: all ease-in-out 0.3s;
-  margin: 10px
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .services .icon-box .icon {
@@ -922,7 +988,7 @@ section .container {
 }
 
 .contact .info-box .social-links {
-  margin: 5px 0 0 68px;
+  margin: 5px 0 0 0px;
   display: flex;
 }
 
@@ -931,7 +997,7 @@ section .container {
   display: inline-block;
   color: #fff;
   line-height: 1;
-  margin-right: 12px;
+  margin-right: 4px;
   transition: 0.3s;
 }
 
@@ -1149,4 +1215,62 @@ section .container {
     right: 0;
     transform: translateX(-50%);
   }
+
+  .education-flex {
+    justify-content: center;
+  }
+
+  .education-flex .icon-box {
+    max-width: 90.333333%;
+    flex: 1 0 33.333333%;
+  }
+
+  .portfolio__list {
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio__item {
+  height: 191px;
+  margin-right: 40px;
+}
+
+.img__skill-down {
+  margin-bottom: 15px;
+}
+
+  
+}
+
+@media (max-width: 400px) { 
+
+  .services .icon-box {
+    padding: 25px 25px;
+   
+}
+
+}
+
+
+@media (max-width: 400px) { 
+
+  .contact .bx {
+    display: none;
+  }
+
+  .contact .info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact .info-box p {
+    margin: 0;
+  }
+
+  .contact .info-box h3 {
+    margin: 0;
+}
+
 }
