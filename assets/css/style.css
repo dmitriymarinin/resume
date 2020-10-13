@@ -1,3 +1,10 @@
+/**
+* Template Name: Personal - v2.1.0
+* Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -656,11 +663,11 @@ section .container {
 }
 
 .img-portfolio1 {
-  background: url('..//img/skillbox.jpg') center center/cover no-repeat;
+  background: url('../img/skillbox.jpg') center center/cover no-repeat;
 }
 
 .img-portfolio2 {
-  background-image: url('..//img/udemy.png');
+  background-image: url('../img/udemy.png');
   background-position: center center;
   background-size: 300px;
   background-repeat: no-repeat;
@@ -713,6 +720,11 @@ li {
   text-align: center;
   margin-top: 15px;
   font-style: italic;
+}
+
+.portfolio__item {
+  height: 160px;
+  margin-right: 40px;
 }
 
 /*--------------------------------------------------------------
@@ -1208,6 +1220,8 @@ li {
 .credits a:hover {
   color: #fff;
 }
+
+
 
 @media (max-width: 992px) {
   .credits {
