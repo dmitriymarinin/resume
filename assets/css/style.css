@@ -656,11 +656,11 @@ section .container {
 }
 
 .img-portfolio1 {
-  background: url('../img/skillbox.jpg') center center/cover no-repeat;
+  background: url('..//img/skillbox.jpg') center center/cover no-repeat;
 }
 
 .img-portfolio2 {
-  background-image: url('../img/udemy.png');
+  background-image: url('..//img/udemy.png');
   background-position: center center;
   background-size: 300px;
   background-repeat: no-repeat;
